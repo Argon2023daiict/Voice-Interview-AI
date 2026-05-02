@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice Interview AI — Client-Side Summarizer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --surface: #1a1d27; --surface2: #242836;
+      --border: #2e3348; --text: #e4e6f0; --text-dim: #8b8fa3;
+      --accent: #6c63ff; --accent-glow: rgba(108,99,255,0.15);
+      --success: #2dd4a8; --warning: #f5a623; --error: #e74c5d;
+      --radius: 12px; --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    body {
+      font-family: var(--font); background: var(--bg); color: var(--text);
+      min-height: 100vh; line-height: 1.6;
+    }
+    #app { max-width: 1200px; margin: 0 auto; padding: 24px; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <noscript>This application requires JavaScript to run.</noscript>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
