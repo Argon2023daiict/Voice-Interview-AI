@@ -1,4 +1,4 @@
-
+https://github.com/user-attachments/assets/032e8555-e472-4a90-99a4-5e4dd4ccebf1
 
 # 🎙️ Voice Interview AI — Complete Architecture
 
@@ -643,3 +643,9 @@ Output: { text: "...", keyPoints: [...], confidence: 0.85, latencyMs: 1200 }
 
 Recommended: Chrome 90+ or Edge 90+ for full feature support.
 ```
+
+
+
+
+
+
